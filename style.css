@@ -246,6 +246,25 @@ footer{
     text-align: center;
 }
 
+#content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+/* Additional styles for better responsiveness */
+@media (min-width: 768px) {
+    #content {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #content {
+        padding: 60px;
+    }
+}
 .foot-panel3{
     background-color: blue;
     background-image: url(contact2.jpg);
@@ -292,7 +311,6 @@ footer{
     display: block;
     margin-top: 10px;
 }
-
 .foot-panel4{
     background-color: black;
     color: white;
@@ -411,4 +429,3 @@ footer{
     }
 
 }
-
